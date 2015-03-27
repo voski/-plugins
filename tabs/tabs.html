@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cool Website</title>
+    <script src="../jquery-1.11.2.js"></script>
+    <script src="./tabs.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+    <link href="./tabs.css" rel="stylesheet" type="text/css">
+  </head>
+  <script>
+    $(function() {
+      $('.tabs').tabs();
+    });
+  </script>
+  <figure class="tab_wrapper">
+    <body>
+      <ul class='tabs' data-content-tabs='#content-tabs'>
+        <li><a href="#american_bulldog" class="active">American Bulldog</a></li>
+        <li><a href="#boxer">Boxer</a></li>
+        <li><a href="#yorkshire_terrier">Yorkshire Terrier</a></li>
+      </ul>
+
+      <div id='content-tabs'>
+        <div class='tab-pane active' id="american_bulldog">
+          <p>
+            The very muscular, sturdy and powerful, yet compact frame of the American Bulldog remains higher on the leg, more agile and swifter than its English counterpart. Some individuals are reportedly able to leap six or more feet into the air. Males are characteristically stockier and heavier boned than the more refined females. The head is large with strong jaws. Agile and light on his feet, the chest is wide and moderately deep, giving the sense of athletic ability and power. The neck is muscular, tapering from the shoulders to the head and may have a slight dewlap. The head is square, large and broad with muscular cheeks relatively in proportion to the size and overall structure of the dog. There is a defined furrow between the rounded eyes, with a distinct, sharply defined, deep stop. The strong muzzle is broad and square. The preferred bite is reverse scissors, but a moderate underbite, scissors or even bite are acceptable. A variety of ear types are acceptable including cropped, rose, half-pricked and forward flap. Uncropped ears are preferred in the American Bulldog Breeders Association standard. Eyes can come in any color. Black eye rims are preferred on white dogs. Pink eye rims are considered a fault according to the written standard. The nose is black, red, brown or grizzle; black is the preferred color according to the standard. In black-nosed dogs, the preferred lip color is black, though some pink is permitted. The lips should be full but not too loose. The front legs are heavy-boned, strong and straight. The hindquarters should be very broad and thick with well-defined muscles. The tail is low-set, begins thick at the base, and tapers to a point. The coat is smooth and short, and comes in all shades of brindle including red brindle, varying degrees of white, red, brown, tan, fawn and piebald.
+          </p>
+        </div>
+        <div class='tab-pane' id="boxer">
+          <p>
+            The Boxer's body is compact and powerful. The head is in proportion with the body. The muzzle is short and blunt with a distinct stop. The nose is large and black with very open nostrils. The jaw has an under bite. The eyes are dark brown. The ears are set high, either cropped or kept natural. When cropped they are trained to stand up on the head, tapering to a point. When left natural the ears are thin, falling forward, lying close to the head. The neck should be round, strong and muscular, without a dewlap. The muscular front legs are straight and parallel when viewed from the front. The back legs are well muscled. The tail is set high and usually docked. The AKC severely penalizes a natural tail, while most of Europe has outlawed this practice. Dewclaws are usually removed. The short, smooth, close-fitting coat comes in fawn, brindle, tan, mahogany and black often with white markings. Boxers also come in a white coat that cannot be registered with some clubs.
+          </p>
+        </div>
+        <div class='tab-pane' id="yorkshire_terrier">
+          <p>
+            The Yorkshire Terrier is a small dog breed of terrier type, developed in the 19th century in the county of Yorkshire, England,[3] to catch rats in clothing mills, also used for rat-baiting. The defining features of the breed are its maximum size of 7 pounds (3.2 kg)[3] and its gray, black, and tan coat. The breed is nicknamed Yorkie and is placed in the Toy Terrier section of the Terrier Group by the Fédération Cynologique Internationale and in the Toy Group or Companion Group by other kennel clubs, including the American Kennel Club,[3] although all agree that the breed is a terrier. A popular companion dog, the Yorkshire Terrier has also been part of the development of other breeds, such as the Australian Silky Terrier.
+          </p>
+        </div>
+      </div>
+    </body>
+  </figure>
+</html>

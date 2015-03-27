@@ -1,0 +1,30 @@
+div.carousel {
+  height: 400px;
+  width: 600px;
+}
+
+div.carousel > div.items {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+div.carousel > div.items > img:not(.active) {
+  display: none;
+}
+
+div.carousel > div.items > *.active.right {
+  left: 100%;
+}
+
+div.carousel > div.items > *.active.left {
+  left: -100%;
+}
+
+div.carousel > div.items > *.active {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  transition: left 500ms linear;
+}
